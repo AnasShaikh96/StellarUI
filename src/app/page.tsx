@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Sidebar />
-      <main className="pl-[21rem] pt-6">hii</main>
+      <main className="px-2 sm:pl-[21rem] pt-6">hii</main>
     </div>
   );
 }

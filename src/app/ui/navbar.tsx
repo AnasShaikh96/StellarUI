@@ -3,7 +3,7 @@ import { Bars3Icon } from "@heroicons/react/24/outline";
 export default function Navbar() {
   return (
     <nav className="bg-slate-100">
-      <div className="mx-auto max-w-7xl  px-2 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-8xl  px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 justify-between items-center  ">
           <div className="absolute left-0 inset-y-0 flex items-center">
             <button className="py-3 sm:hidden">
