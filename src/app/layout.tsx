@@ -14,7 +14,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.className} antialiased`}>{children}</body>
+      <body
+        className={`${geistSans.className} min-h-svh bg-background font-sans antialiased`}
+      >
+        <div className="relative flex min-h-svh flex-col bg-background">
+          <div className="border-grid flex flex-1 flex-col">{children}</div>
+        </div>
+      </body>
     </html>
   );
 }
