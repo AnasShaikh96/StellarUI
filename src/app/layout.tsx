@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { geistSans } from "@/app/ui/fonts";
-import { SiteHeader } from "@/components/site-header";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,12 +17,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.className} min-h-svh bg-background font-sans antialiased`}
       >
-        <div className="relative flex min-h-svh flex-col bg-background">
-          <div className="border-grid flex flex-1 flex-col">
-            <SiteHeader />
-            <main>{children}</main>
-          </div>
-        </div>
+        Not gonna be a ShadCn fork now
+        <main>{children}</main>
       </body>
     </html>
   );
